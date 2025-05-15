@@ -13,7 +13,7 @@ public class CalculadoraReembolsoTest {
     public void ShouldCalculateReimbursementWith70Percent() {
         // Arrange
 
-        // aqui chamo a classe CalculeteReimbursement
+        // aqui chamo a classe CalculadoraReembolso
         CalculadoraReembolso calculadora = new CalculadoraReembolso();
         // declaro os valores
         double consultationValue = 200.0;
@@ -35,7 +35,7 @@ public class CalculadoraReembolsoTest {
     public void ShouldCalculateReimbursementWith0Percent() {
         // Arrange
 
-        // aqui chamo a classe CalculeteReimbursement
+        // aqui chamo a classe CalculadoraReembolso
         CalculadoraReembolso calculadora = new CalculadoraReembolso();
         // declaro os valores
         double consultationValue = 200.0;
@@ -56,7 +56,7 @@ public class CalculadoraReembolsoTest {
     public void ShouldCalculateReimbursementWith100Percent() {
         // Arrange
 
-        // aqui chamo a classe CalculeteReimbursement
+        // aqui chamo a classe CalculadoraReembolso
         CalculadoraReembolso calculadora = new CalculadoraReembolso();
         // declaro os valores
         double consultationValue = 200.0;
