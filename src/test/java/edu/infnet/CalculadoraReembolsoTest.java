@@ -14,7 +14,7 @@ public class CalculadoraReembolsoTest {
         // Arrange
 
         // aqui chamo a classe CalculeteReimbursement
-        CalculadoraReembolsoTest calculadora = new CalculadoraReembolsoTest();
+        CalculadoraReembolso calculadora = new CalculadoraReembolso();
         // declaro os valores
         double consultationValue = 200.0;
         double percentualReimbursement = 70.0;
@@ -27,7 +27,7 @@ public class CalculadoraReembolsoTest {
         // Assert
 
         // verifica se o valor do reembolso calculado é igual a 140.0 (70% de 200)
-        assertEquals("O reembolso de 70% de R$200 deve ser R$140", 140.0, reimbursementValue, 0.001);
+        assertEquals("O reembolso de 70% de R deve ser R", 140.0, reimbursementValue, 0.001);
 
     }
 
@@ -36,7 +36,7 @@ public class CalculadoraReembolsoTest {
         // Arrange
 
         // aqui chamo a classe CalculeteReimbursement
-        CalculadoraReembolsoTest calculadora = new CalculadoraReembolsoTest();
+        CalculadoraReembolso calculadora = new CalculadoraReembolso();
         // declaro os valores
         double consultationValue = 200.0;
         double percentualReimbursement = 0;
@@ -57,7 +57,7 @@ public class CalculadoraReembolsoTest {
         // Arrange
 
         // aqui chamo a classe CalculeteReimbursement
-        CalculadoraReembolsoTest calculadora = new CalculadoraReembolsoTest();
+        CalculadoraReembolso calculadora = new CalculadoraReembolso();
         // declaro os valores
         double consultationValue = 200.0;
         double percentualReimbursement = 100;
