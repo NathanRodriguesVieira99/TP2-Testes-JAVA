@@ -7,7 +7,7 @@ import org.junit.Test;
  *
  * @author nathan.vieira
  */
-public class CalculeteReimbursementWithValues {
+public class CalculeteReimbursementTest {
 
     @Test
     public void ShouldCalculateReimbursementWith70Percent() {
